@@ -28,8 +28,16 @@ Apart from this, we also performed the same pick-and-place task, but in the pres
 
 
 ### The PincherX100
+The PincherX 100 is a compact, lightweight robotic arm designed by Trossen Robotics as part of their Interbotix series. It is commonly used in research, education.
+# Key Features:
+1) 4 Degrees of Freedom
+2) 50g Payload Capacity
+3) 300 mm Arm Reach
+4) 600 mm Arm Span
+5) Revolute Wrist Joint
 
-
+![image](https://github.com/user-attachments/assets/086ca552-c3c7-4b98-a070-751e69235844)
+![image](https://github.com/user-attachments/assets/097ebba9-e49a-4b73-9288-f3fd75f1c1f8)
 
 
 ### Constraints Imposed On The Robot
@@ -84,7 +92,17 @@ To make the arm go over the obstacle, we took in the obstacle’s position and w
 
 ### Results
 
+## Pick and Place Simulation
 
+https://github.com/user-attachments/assets/59a23fb7-de72-4df2-b47f-500e2eb73001
+
+## Pick and Place Real-time
+
+https://github.com/user-attachments/assets/50dfe666-6c17-4f98-b5eb-7335bceaed71
+
+## Obstacle Avoidance
+
+https://github.com/user-attachments/assets/68d37a28-041e-4257-92e6-511fd6b5b974
 
 ### Acknowledgements
 We would like to thank our course instructor, Prof. Yasin Yazicioglu, as well as all the teaching assistants who helped us immensely not only while doing this project but throughout the course. They were great at teaching and managing the course and were always available and enthusiastic about solving everyone's doubts. <br>
