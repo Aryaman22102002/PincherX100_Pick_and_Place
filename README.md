@@ -52,17 +52,17 @@ The following constraints will be imposed on the robot for safe operaIon. If any
 
 ### Our Approach
 
-##### The Main Pick and Place Code
+#### The Main Pick and Place Code
 The main pick and place code starts by initializing the robot and setting thresholds for movement and height. The task is divided into three main parts: reaching the payload, transporting it, and returning to the home position. For each
 phase, the code uses inverse kinematics (IK) to calculate the required joint configurations for the robot to move through intermediate, pick, drop, and home positions. Joint-space trajectories are generated with waypoints, and the robot moves step by step, checking its current position against the target at each waypoint to ensure accuracy. Forward kinematics (FK) is used to calculate the end-effector's position and validate the trajectory. The gripper is controlled to pick and release the payload at the appropriate points, while intermediate poses ensure smooth and collision-free motion. Error checks and small pauses between movements help maintain stability and precision throughout the task.
 
-##### The Numerical Inverse Kinematics Code
+#### The Numerical Inverse Kinematics Code
 This code calculates the inverse kinematics (IK) for a PX100 robotic arm, determining the joint configurations needed to achieve a desired end-effector pose (pick_pose). It uses MATLAB's inverseKinematics solver with the BFGS Gradient Projection algorithm and configures it for higher accuracy by increasing the maximum iterations and random restarts, while tightening tolerance values for stricter convergence. The weights prioritize position accuracy over orientation, and the robot's home configuration is used as the initial guess. The function checks if the computed joint positions fall within predefined limits for each joint and validates the solver's success before returning the joint configuration or reporting an error.
 
-##### The Trajectory Planning Code
+#### The Trajectory Planning Code
 The trajectory planning is divided into two phases: (1) moving from the current configuration to an intermediate hovering position, and (2) moving from the intermediate position to the target configuration. The number of waypoints is split proportionally between these phases, and linear interpolation is applied for smooth transitions in joint values. Depending on whether the robot is picking or placing an object (is_picking), the trajectory maintains the Z-coordinate above a specified min_z_thresh to avoid collisions or maintain safe operation. The final waypoint is explicitly set to match the target configuration to ensure precision. This approach ensures a smooth and safe motion trajectory for the manipulator.
 
-##### The Obstacle Avoidance Code
+#### The Obstacle Avoidance Code
 The obstacle was placed in the center of the configuration between the pick and drop positions. Its height was also double that of the object. To avoid the obstacle, we made the arm to go over the obstacle.<br>
 To make the arm go over the obstacle, we took in the obstacle’s position and we already had its radius and height. As we were already using extra intermediate waypoints to make the arm hover before picking and dropping the object, we decided to use the intermediate waypoints approach for obstacle avoidance too. We already had three intermediate waypoints: 1) To hover over the object before picking it up, 2) To pick up the object, reach the x and y position of the drop pose and hover over it, 3) After dropping the object, hover again at the same position it hovered before placing followed by going back to home configuration. So, we added a fourth intermediate point where after picking up the object, instead of directly going to the hover position over the drop pose, it would first go about in height (Z axis) at the pick position itself, and then go to the drop point’s hover position. We also used the cylinder's height and radius to set the intermediate point’s x, y and z coordinates to ensure that it won’t collide into the obstacle.
 
@@ -89,7 +89,7 @@ To make the arm go over the obstacle, we took in the obstacle’s position and w
 ### Acknowledgements
 We would like to thank our course instructor, Prof. Yasin Yazicioglu, as well as all the teaching assistants who helped us immensely not only while doing this project but throughout the course. They were great at teaching and managing the course and were always available and enthusiastic about solving everyone's doubts. <br>
 
-We would also like to express our gratitude to Northeastern University for providing us access to the PincherX100 arm. 
+We would also like to express our gratitude to Northeastern University for providing us access to the PincherX100 robot manipulator. 
 
 
 ### Contributors
