@@ -57,8 +57,20 @@ To make the arm go over the obstacle, we took in the obstacle’s position and w
 
 
 ### Some information regarding what each code file does
-
-
+- **Visual_env_with_analytical_ik.m** - This is the main logic for the manipulator's pick and place using the analytical inverse kinematics function in MATLAB simulation. 
+- **Visual_env_with_numerical_ik.m** - This is the main logic for the manipulator's pick and place using the numerical inverse kinematics function in MATLAB simulation. 
+- **calculate_ik_sim.m** - This is the numerical inverse kinematics function in MATLAB simulation.
+- **closeGripper.m** - This function is used to open and close the arm's gripper for the real PincherX100 arm.
+- **fk_px100.m** - This function is used to calculate the forward kinematics for the arm.
+- **get_joint_pos.m** - It gives the current joint positions of the arm as output.
+- **get_pick_and_place_position.m** - It gives the payload's pick position and target position as well as the obstacle's position using a monocular camera.
+- **ik_px100.m** - This is the numerical inverse kinematics function for the real PincherX100 arm.
+- **init_robot.m** - This function initializes all the necessary parameters for the robot.
+- **pick_and_place.m** - This is the main logic for the manipulator's pick and place for the real PincherX100 arm.
+- **pick_and_place_with_obstacle_avoidance.m** - This is the main logic for the manipulator's pick and place with obstacle avoidance for the real PincherX100 arm.
+- **plan_end_effector_trajectory.m** - This function designs the trajectory for the manipulator's end effector.
+- **set_joint_pos.m** - This function is used to actually move the arm's joints to a given set of joint positions.
+- **simulation_with_analytical_ik.m** - This is the main logic for the manipulator's pick and place using the analytical inverse kinematics function in MATLAB simulation. 
 
 
 ### Results
