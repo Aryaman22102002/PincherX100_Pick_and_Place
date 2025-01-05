@@ -5,6 +5,10 @@ This project was done as a part of the ME 5250 (Robot Mechanics and Control) cou
 ### Table of Content
 * [Objectives](#objectives)
 * [The PincherX100](#the-pincherx100)
+  * [Key Features](#key-features)
+  * [Image Of The Robot](#image-of-the-robot)
+  * [Frame Assignment For The Robot Along With Its DH Parameters](#frame-assignment-for-the-robot-along-with-its-dh-parameters)
+  * [DH Table](#dh-table)
 * [Constraints Imposed On The Robot](#constraints-imposed-on-the-robot)
 * [Our Approach](#our-approach)
   * [The Main Pick and Place Code](#the-main-pick-and-place-code)
@@ -13,6 +17,9 @@ This project was done as a part of the ME 5250 (Robot Mechanics and Control) cou
   * [The Obstacle Avoidance Code](#the-obstacle-avoidance-code)
 * [Some-Information-Regarding-What-Each-Code-File-Does](#some-information-regarding-what-each-code-file-does)
 * [Results](#Results)
+  * [Pick and Place In MATLAB Simulation](#pick-and-place-in-matlab-simulation)
+  * [Pick and Place Using The Real PincherX100](#pick-and-place-using-the-real-pincherx100)
+  * [Pick and Place Along With Obstacle Avoidance](#pick-and-place-along-with-obstacle-avoidance)
 * [Acknowledgements](#acknowledgements)
 * [Contributors](#contributors)
 
@@ -28,19 +35,22 @@ Apart from this, we also performed the same pick-and-place task, but in the pres
 
 
 ### The PincherX100
-The PincherX 100 is a compact, lightweight robotic arm designed by Trossen Robotics as part of their Interbotix series. It is commonly used in research, education.
-# Key Features:
+The PincherX 100 is a compact, lightweight robotic arm designed by Trossen Robotics as part of their Interbotix series. It is commonly used in research, education, etc. 
+
+#### Key Features
 1) 4 Degrees of Freedom
 2) 50g Payload Capacity
 3) 300 mm Arm Reach
 4) 600 mm Arm Span
 5) Revolute Wrist Joint
 
+#### Image Of The Robot
 ![image](https://github.com/user-attachments/assets/086ca552-c3c7-4b98-a070-751e69235844)  
 
+#### Frame Assignment For The Robot Along With Its DH Parameters
 ![image](https://github.com/user-attachments/assets/097ebba9-e49a-4b73-9288-f3fd75f1c1f8)
 
-# DH Table:
+#### DH Table
 ![image](https://github.com/user-attachments/assets/cbfd1790-15e3-4cfb-b429-25cab5e52cd5)
 
 
@@ -96,17 +106,18 @@ To make the arm go over the obstacle, we took in the obstacle’s position and w
 
 ### Results
 
-## Pick and Place Simulation
+#### Pick and Place In MATLAB Simulation
 
 https://github.com/user-attachments/assets/59a23fb7-de72-4df2-b47f-500e2eb73001
 
-## Pick and Place Real-time
+#### Pick and Place Using The Real PincherX100
 
 https://github.com/user-attachments/assets/50dfe666-6c17-4f98-b5eb-7335bceaed71
 
-## Obstacle Avoidance
+#### Pick and Place Along With Obstacle Avoidance
 
 https://github.com/user-attachments/assets/68d37a28-041e-4257-92e6-511fd6b5b974
+
 
 ### Acknowledgements
 We would like to thank our course instructor, Prof. Yasin Yazicioglu, as well as all the teaching assistants who helped us immensely not only while doing this project but throughout the course. They were great at teaching and managing the course and were always available and enthusiastic about solving everyone's doubts. <br>
@@ -117,6 +128,7 @@ We would also like to express our gratitude to Northeastern University for provi
 ### Contributors
 - [Aryaman Shardul](https://github.com/Aryaman22102002)
 - [Sairam Sridharan](https://github.com/Sairamzz)
+
 
 ### Contact
 - Aryaman Shardul - lnu.arya@northeastern.edu
