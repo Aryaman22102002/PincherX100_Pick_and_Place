@@ -57,7 +57,9 @@ We would like to thank Prof. Yasin Yazicioglu as well as all the course TAs for 
 
 
 ### Contributors
-- Aryaman Shardul
-- Sairam Sridharan
+- [Aryaman Shardul](https://github.com/Aryaman22102002)
+- [Sairam Sridharan](https://github.com/Sairamzz)
 
 ### Contact
+- Aryaman Shardul - lnu.arya@northeastern.edu
+- Sairam Sridharan - sridharan.sai@northeastern.edu
