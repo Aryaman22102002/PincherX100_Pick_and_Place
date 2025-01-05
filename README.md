@@ -36,10 +36,12 @@ The PincherX 100 is a compact, lightweight robotic arm designed by Trossen Robot
 4) 600 mm Arm Span
 5) Revolute Wrist Joint
 
-![image](https://github.com/user-attachments/assets/086ca552-c3c7-4b98-a070-751e69235844)   ![image](https://github.com/user-attachments/assets/097ebba9-e49a-4b73-9288-f3fd75f1c1f8)
+![image](https://github.com/user-attachments/assets/086ca552-c3c7-4b98-a070-751e69235844)  
+
+![image](https://github.com/user-attachments/assets/097ebba9-e49a-4b73-9288-f3fd75f1c1f8)
 
 # DH Table:
-                                           ![image](https://github.com/user-attachments/assets/cbfd1790-15e3-4cfb-b429-25cab5e52cd5)
+![image](https://github.com/user-attachments/assets/cbfd1790-15e3-4cfb-b429-25cab5e52cd5)
 
 
 ### Constraints Imposed On The Robot
