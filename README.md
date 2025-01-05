@@ -22,6 +22,7 @@ This project was done as a part of the ME 5250 (Robot Mechanics and Control) cou
   * [Pick and Place Along With Obstacle Avoidance](#pick-and-place-along-with-obstacle-avoidance)
 * [Acknowledgements](#acknowledgements)
 * [Contributors](#contributors)
+* [Contacts](#contacts)
 
 ### Objectives
 In this project, we worked on the PincherX100 arm, a 4 DOF manipulator to perform a pick and place task using MATLAB. The object (payload) to be picked was a cylinder with a radius of 2 cm and height of 5 cm. The main tasks of the project included:
