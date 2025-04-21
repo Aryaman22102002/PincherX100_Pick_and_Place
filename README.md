@@ -121,7 +121,7 @@ https://github.com/user-attachments/assets/68d37a28-041e-4257-92e6-511fd6b5b974
 
 
 ### Acknowledgements
-We want our course instructor, Prof. Yasin Yazicioglu, as well as all the teaching assistants who helped us immensely not only while doing this project but throughout the course. They were great at teaching and managing the course and were always available and enthusiastic about solving everyone's doubts. <br>
+We want to thank our course instructor, Prof. Yasin Yazicioglu, as well as all the teaching assistants who helped us immensely not only while doing this project but throughout the course. They were great at teaching and managing the course and were always available and enthusiastic about solving everyone's doubts. <br>
 
 We would also like to thank Northeastern University for providing us access to the PincherX100 robot manipulator. 
 
